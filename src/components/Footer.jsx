@@ -69,9 +69,8 @@ export default function Footer() {
           {/* Mission Text */}
           <p className=" sm:text-xl font-bold lg:text-3xl py-4">
             Our mission is to enrich everyday living through quality,
-            innovation, and integrity— whether{" "}
-            <em>you wear it, eat it, or live in it</em>. Join us as we continue
-            to <em>grow, inspire, and create a legacy</em> across industries.
+            innovation, and integrity— whether you wear it, eat it, or live in it. Join us as we continue
+            to grow, inspire, and create a legacy across industries.
           </p>
 
           {/* Bottom-right star */}
@@ -134,8 +133,7 @@ export default function Footer() {
             <div className="flex items-start">
               <MdLocationOn className="mt-1 mr-2" />
               <span>
-                Shop#350, 2nd floor, Concord Twin Center <br /> Shopping
-                Complex, Khulshi, Chattogram
+                Suits C8, House 2B, Road 06, North Khulshi, Chittagong
               </span>
             </div>
             <div className="flex items-center">
@@ -150,7 +148,7 @@ export default function Footer() {
             <div className="flex items-center">
               <MdPhone className="mr-2" />
               <a href="tel:+8801829337533" className="hover:underline">
-                +8801829337533
+                +8801829675604
               </a>
             </div>
           </div>
