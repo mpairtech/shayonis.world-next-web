@@ -1,10 +1,7 @@
 "use client";
-
 import React, { useState, useEffect, useRef } from "react";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { IoCloseOutline } from "react-icons/io5";
-
-
 
 const Navbar = () => {
   const [active, setActive] = useState("home");

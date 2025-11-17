@@ -38,31 +38,31 @@ const StarIcon = ({
 const carouselItems = [
   {
     id: 1,
-    image: "/image/carosal-img1.png",
+    image: "/image/factory1.jpeg",
     title: "Industry Leader in Fabric Finishing",
     subtitle: "Shayoni’s Apparels is a globally renowned name known for special finishes on knitted fabrics.",
   },
   {
     id: 2,
-    image: "/image/carosal-img2.png",
+    image: "/image/factory2.jpeg",
     title: "Advanced Technology & Skilled Team",
     subtitle: "Uses cutting-edge machinery and expert craftsmanship to deliver comfortable, protective, healthy, and stylish fabrics.",
   },
   {
     id: 3,
-    image: "/image/carosal-img3.png",
+    image: "/image/factory3.jpeg",
     title: "Clients Around the World",
     subtitle: "Successfully partnered with over 150+ global clients, including top brands and garment retailers.",
   },
   {
     id: 4,
-    image: "/image/carosal-img4.png",
+    image: "/image/factory4.jpeg",
     title: "In-House Processing",
     subtitle: "End-to-end finishing processes are managed in-house through personalized vendor networks, reducing costs and ensuring quality.",
   },
   {
     id: 5,
-    image: "/image/carosal-img5.png",
+    image: "/image/factory5.jpeg",
     title: "Specialization in Mechanical Finishing",
     subtitle: "Expertise includes: Sueding/Peaching Calendaring Beetling Moiré Sizing and crisp finishes",
   },

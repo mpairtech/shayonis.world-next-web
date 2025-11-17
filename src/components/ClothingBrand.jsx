@@ -9,11 +9,36 @@ import 'react-horizontal-scrolling-menu/dist/styles.css';
 
 
 const categories = [
-  { label: 'Kids Outfit', frontImg: '/image/clothing1.png', backImg: '/image/clothing-backimg1.png', objectPos: 'object-center-top' },
-  { label: 'Mans Wear', frontImg: '/image/clothing2.png', backImg: '/image/clothing-backimg2.png', objectPos: 'object-left' },
-  { label: 'Female Wear', frontImg: '/image/clothing3.png', backImg: '/image/clothing-backimg3.png', objectPos: 'object-left-top' },
-  { label: 'Saree', frontImg: '/image/clothing4.png', backImg: '/image/clothing-backimg4.png', objectPos: 'object-center' },
-  { label: 'Panjabi', frontImg: '/image/clothing5.png', backImg: '/image/clothing-backimg5.png', objectPos: 'object-center' },
+  {
+    label: "Kids Outfit",
+    frontImg: "/image/kid1.jpeg",
+    backImg: "/image/kid2.jpeg",
+    objectPos: "object-center-top",
+  },
+  {
+    label: "Women Wear",
+    frontImg: "/image/suite1.jpeg",
+    backImg: "/image/suite2.jpeg",
+    objectPos: "object-left",
+  },
+  {
+    label: "Women Wear",
+    frontImg: "/image/women1.jpeg",
+    backImg: "/image/women2.jpeg",
+    objectPos: "object-left-top",
+  },
+  {
+    label: "Saree",
+    frontImg: "/image/saree1.jpeg",
+    backImg: "/image/saree2.jpeg",
+    objectPos: "object-center",
+  },
+  {
+    label: "Female Suite",
+    frontImg: "/image/cat51.jpeg",
+    backImg: "/image/cat52.jpeg",
+    objectPos: "object-center",
+  },
 ];
 
 const ClothingBrand = () => {

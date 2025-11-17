@@ -36,7 +36,7 @@ const StarIcon = ({ className = "" }) => (
     viewBox="0 0 37 36"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
-    className={`w-10 h-10 ${className}`}  // ✅ correct line
+    className={`w-10 h-10 ${className}`} 
   >
     <g clipPath="url(#clip0_24_49)">
       <path
@@ -81,7 +81,7 @@ export default function Footer() {
       </section>
 
 
-{        /* Footer Section */}
+{ /* Footer Section */}
 
       <section className="footer text-white max-w-screen mx-auto ">
         <div className="w-full lg:py-12 lg:px-12 flex flex-col lg:flex-row  items-start lg:justify-start lg:gap-4 sm:gap-4 lg:items-start px-6 py-10">

@@ -10,22 +10,22 @@ import "react-horizontal-scrolling-menu/dist/styles.css";
 const contentData = [
   {
     title: "Sustainable Farming Practices",
-    img: "/image/agro-img1.png",
+    img: "/image/agro-banner.jpeg",
     text: "Focuses on long-term environmental health and resource efficiency in agriculture.",
   },
   {
     title: "Naturally Grown Produce",
-    img: "/image/agro-img2.png",
+    img: "/image/agro2.jpeg",
     text: "Supports the cultivation of produce without synthetic chemicals.",
   },
   {
     title: "Farm-to-Table Model",
-    img: "/image/agro-img3.png",
+    img: "/image/agro3.jpeg",
     text: "Connects consumers directly to local farms, reducing travel and waste.",
   },
   {
     title: "Packaging & Distribution",
-    img: "/image/agro-img4.png",
+    img: "/image/agro4.jpeg",
     text: "Emphasizes eco-friendly, organic, and environmentally responsible methods.",
   },
 ];

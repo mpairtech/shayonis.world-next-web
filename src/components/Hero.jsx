@@ -95,25 +95,25 @@ const Hero = () => {
           {/* Right Image Section */}
           <div className="lg:w-2/5 sm:p-8 grid grid-cols-2 gap-4 lg:px-4 px-1 ">
             <Image 
-              src="/image/image1.png" 
+              src="/image/shop-banner.jpeg"
               alt="Emporium" 
               width={230} 
               height={230} 
               className=" w-full h-full rounded-[30px] object-cover " />
             <Image 
-              src="/image/image2.png" 
+              src="/image/building-banner.jpeg"
               alt="Construction" 
               width={230} 
               height={230} 
               className="rounded-[120px_20px_20px_20px] object-cover w-full h-full" />
             <Image 
-              src="/image/image3.png" 
+              src="/image/factory-banner.jpeg"
               alt="Apparel" 
               width={230} 
               height={230} 
               className="rounded-[30px_30px_120px_30px] object-cover w-full h-full" />
             <Image 
-              src="/image/image4.png" 
+              src="/image/agro-banner.jpeg"
               alt="Agro" 
               width={230} 
               height={230} 

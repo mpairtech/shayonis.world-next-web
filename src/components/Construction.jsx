@@ -64,7 +64,7 @@ const Construction = () => {
   <div className=" w-full grid grid-cols-1 md:grid-cols-4 gap-4 md:gap-6 place-items-center">
   <div className="lg:col-span-2 h-[340px] overflow-hidden rounded-xl">
     <Image
-      src="/image/cons1.png"
+      src="/image/factory1.jpeg"
       alt="Image 1"
       width={500}
       height={335}
@@ -75,7 +75,7 @@ const Construction = () => {
   <div className="flex flex-row gap-4 md:gap-6 h-[340px] md:flex-row md:col-span-2">
     <div className=" h-[340px] overflow-hidden rounded-xl">
     <Image
-      src="/image/cons2.png"
+      src="/image/building-banner.jpeg"
       alt="Image 2"
       width={340}
       height={335}
@@ -85,7 +85,7 @@ const Construction = () => {
 
   <div className="  h-[340px] overflow-hidden rounded-xl">
     <Image
-      src="/image/cons3.png"
+      src="/image/factory4.jpeg"
       alt="Image 3"
       width={340}
       height={335}
