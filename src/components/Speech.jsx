@@ -22,13 +22,13 @@ const Speech = () => {
   return (
     <section
       id="leadership"
-      className="mt-12 sm:mb-8 md:px-12 lg:px-16 py-8 md:py-12 lg:my-16"
+      className="mt-12 sm:mb-8 px-8 lg:px-16 py-8 md:py-12 lg:my-16"
     >
       {/* Heading */}
       <div className="flex flex-col justify-center items-center sm:text-center mb-8 md:mb-10 lg:mb-14">
         <Tag text="Leadership Speech" />
         <h2
-          className="text-[32px] lg:text-[44px] md:text-3xl sm:text-2xl font-bold mt-3"
+          className="text-[32px] lg:text-[44px] md:text-3xl sm:text-lg font-bold mt-3"
           style={{ color: "var(--primary-text)" }}
         >
           Chairman's & Managing Director's Speech

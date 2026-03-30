@@ -81,7 +81,7 @@ export default function Footer() {
         </div>
       </section>
 
-      <section className="mb-20 relative gallery py-8 px-12 max-w-10/12 mx-auto text-white text-center  leading-relaxed flex items-center justify-center gap-10">
+      <section className="mb-20 relative gallery py-8 px-12 max-w-10/12 mx-auto text-white text-center  leading-relaxed  md:flex items-center justify-center gap-10">
         <p className=" sm:text-xl font-semibold lg:text-3xl py-4">
           Click here to explore our gallery and discover a rich collection of
           images and give you a closer look at the variety of content we offer.
