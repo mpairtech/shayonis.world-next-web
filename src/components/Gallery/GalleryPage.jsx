@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { IoIosArrowForward, IoIosArrowBack } from "react-icons/io";
 
 const categories = [
-  { key: "photos", label: "Eid 2026" },
+  { key: "photos", label: "Photo Gallery" },
   { key: "clothing", label: "Clothing" },
   { key: "apparel", label: "Apparel" },
   { key: "construction", label: "Construction" },
@@ -62,7 +62,6 @@ const images = {
     "/image/WhatsApp Image 2026-03-30 at 2.01.24 PM.jpeg",
     "/image/WhatsApp Image 2026-03-30 at 2.01.25 PM (1).jpeg",
     "/image/WhatsApp Image 2026-03-30 at 2.01.25 PM.jpeg",
-   
   ],
   clothing: [
     "/image/kid1.jpeg",
@@ -80,6 +79,15 @@ const images = {
     "/image/cloth3.jpeg",
     "/image/cloth4.jpeg",
     "/image/cloth5.jpeg",
+    "/image/WhatsApp Image 2026-03-30 at 5.00.08 PM.jpeg",
+    "/image/WhatsApp Image 2026-03-30 at 5.00.09 PM (1).jpeg",
+    "/image/WhatsApp Image 2026-03-30 at 5.00.09 PM (2).jpeg",
+    "/image/WhatsApp Image 2026-03-30 at 5.00.09 PM.jpeg",
+    "/image/WhatsApp Image 2026-03-30 at 5.00.10 PM (1).jpeg",
+    "/image/WhatsApp Image 2026-03-30 at 5.00.10 PM (2).jpeg",
+    "/image/WhatsApp Image 2026-03-30 at 5.00.10 PM.jpeg",
+    "/image/WhatsApp Image 2026-03-30 at 5.00.11 PM (1).jpeg",
+    "/image/WhatsApp Image 2026-03-30 at 5.00.11 PM.jpeg",
   ],
   apparel: [
     "image/apparel1.png",
@@ -101,7 +109,22 @@ const images = {
     "image/agro4.jpeg",
     "image/agro5.jpeg",
   ],
-  construction: [],
+  construction: [
+    "image/WhatsApp Image 2026-03-30 at 2.18.13 PM.jpeg",
+    "image/WhatsApp Image 2026-03-30 at 2.18.14 PM (1).jpeg",
+    "image/WhatsApp Image 2026-03-30 at 2.18.14 PM (2).jpeg",
+    "image/WhatsApp Image 2026-03-30 at 2.18.14 PM.jpeg",
+    "image/WhatsApp Image 2026-03-30 at 2.18.15 PM (1).jpeg",
+    "image/WhatsApp Image 2026-03-30 at 2.18.15 PM (2).jpeg",
+    "image/WhatsApp Image 2026-03-30 at 2.18.15 PM.jpeg",
+    "image/WhatsApp Image 2026-03-30 at 2.18.16 PM (1).jpeg",
+    "image/WhatsApp Image 2026-03-30 at 2.18.16 PM (2).jpeg",
+    "image/WhatsApp Image 2026-03-30 at 2.18.16 PM (3).jpeg",
+    "image/WhatsApp Image 2026-03-30 at 2.18.16 PM.jpeg",
+    "image/WhatsApp Image 2026-03-30 at 2.18.17 PM (1).jpeg",
+    "image/WhatsApp Image 2026-03-30 at 2.18.17 PM.jpeg",
+    "image/WhatsApp Image 2026-03-30 at 2.18.17 PM (2).jpeg",
+  ],
 };
 
 export default function GalleryPage() {
