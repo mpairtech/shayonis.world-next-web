@@ -59,7 +59,7 @@ const StarIcon = ({ className = "" }) => (
 export default function Footer() {
   return (
     <footer className=" w-full  ">
-      <section className="mb-20">
+      <section className="mb-10">
         <div className="relative mission p-12 max-w-10/12 mx-auto text-white text-center font-semibold text-xl leading-relaxed">
           {/* Top-left star */}
           <div className="absolute left-6 top-6 lg:left-16 md:left-12 sm:left-10">
@@ -69,8 +69,9 @@ export default function Footer() {
           {/* Mission Text */}
           <p className=" sm:text-xl font-bold lg:text-3xl py-4">
             Our mission is to enrich everyday living through quality,
-            innovation, and integrity— whether you wear it, eat it, or live in it. Join us as we continue
-            to grow, inspire, and create a legacy across industries.
+            innovation, and integrity— whether you wear it, eat it, or live in
+            it. Join us as we continue to grow, inspire, and create a legacy
+            across industries.
           </p>
 
           {/* Bottom-right star */}
@@ -80,24 +81,35 @@ export default function Footer() {
         </div>
       </section>
 
+      <section className="mb-20 relative gallery py-8 px-12 max-w-10/12 mx-auto text-white text-center  leading-relaxed flex items-center justify-center gap-10">
+        <p className=" sm:text-xl font-semibold lg:text-3xl py-4">
+          Click here to explore our gallery and discover a rich collection of
+          images and give you a closer look at the variety of content we offer.
+        </p>
+        <Link
+          className='px-10 py-2 bg-white text-black text-xl font-semibold rounded-full hover:shadow-lg'
+          href="/gallery">Gallery</Link>
+        
+      </section>
 
-{ /* Footer Section */}
+      {/* Footer Section */}
 
       <section className="footer text-white max-w-screen mx-auto ">
         <div className="w-full lg:py-12 lg:px-12 flex flex-col lg:flex-row  items-start lg:justify-start lg:gap-4 sm:gap-4 lg:items-start px-6 py-10">
-
           {/* Left Column */}
           <div className="w-full lg:w-5/12 flex flex-col items-start sm:mb-6">
             <div className="flex flex-col sm:flex-col justify-start items-start sm:items-start gap-4 w-full">
-              <div className={`text-3xl mb-2 pl-3 ${playfairDisplay.className}`}>
+              <div
+                className={`text-3xl mb-2 pl-3 ${playfairDisplay.className}`}
+              >
                 <span className="text-white font-normal ">Shayonis</span> <br />
                 <span className="text-white font-extrabold  ">World</span>
               </div>
 
               <p className="text-base sm:w-4/6 lg:w-[100%] sm:pl-3 pl-3">
-                From fashion to farming, fabric to foundations —
-                Shayonis World unites diverse industries with a single 
-                promise: quality, innovation, and trust.
+                From fashion to farming, fabric to foundations — Shayonis World
+                unites diverse industries with a single promise: quality,
+                innovation, and trust.
               </p>
             </div>
             <div className="flex space-x-4 mt-4 pl-3">
@@ -115,18 +127,18 @@ export default function Footer() {
           </div>
 
           {/* Middle Column */}
-    <div className=" my-6 w-full lg:w-3/12 grid grid-cols-1 lg:grid-cols-3 gap-3 text-base font-semibold pl-3 lg:text-center">
-      {navItems.map(({ label, id }) => (
-        <a
-          key={id}
-          href={`#${id}`}
-          onClick={(e) => scrollToSection(e, id)}
-          className="hover:underline "
-        >
-          {label}
-        </a>
-      ))}
-    </div>
+          <div className=" my-6 w-full lg:w-3/12 grid grid-cols-1 lg:grid-cols-3 gap-3 text-base font-semibold pl-3 lg:text-center">
+            {navItems.map(({ label, id }) => (
+              <a
+                key={id}
+                href={`#${id}`}
+                onClick={(e) => scrollToSection(e, id)}
+                className="hover:underline "
+              >
+                {label}
+              </a>
+            ))}
+          </div>
 
           {/* Right Column */}
           <div className="w-full lg:w-4/12 space-y-3 text-base flex flex-col gap-3 pl-3">
@@ -155,7 +167,7 @@ export default function Footer() {
         </div>
 
         {/* Bottom Bar */}
-  <div className="border-t border-gray-400 px-6 lg:px-16 py-4 flex flex-col lg:flex-row justify-between items-center gap-2 text-center lg:text-left">
+        <div className="border-t border-gray-400 px-6 lg:px-16 py-4 flex flex-col lg:flex-row justify-between items-center gap-2 text-center lg:text-left">
           <div className="flex items-center gap-2">
             <span>&copy;</span>
             <span className="text-xs font-medium">

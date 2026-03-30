@@ -15,7 +15,7 @@ const About =() => {
       subtitle: "A bold and expressive fashion label that blends tradition with modernity.",
     },
     {
-      Image: "/image/building-banner.jpeg",
+      Image: "/image/dreamhouse.jpeg",
       title: "Shayonis Dream Homes",
       subtitle: "Curated home decor that transforms spaces into personal sanctuaries.",
     },

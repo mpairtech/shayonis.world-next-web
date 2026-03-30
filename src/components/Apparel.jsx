@@ -62,7 +62,7 @@ const carouselItems = [
   },
   {
     id: 5,
-    image: "/image/factory5.jpeg",
+    image: "/image/factory6.jpeg",
     title: "Specialization in Mechanical Finishing",
     subtitle: "Expertise includes: Sueding/Peaching Calendaring Beetling Moiré Sizing and crisp finishes",
   },

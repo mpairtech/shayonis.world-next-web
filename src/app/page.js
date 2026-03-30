@@ -7,6 +7,7 @@ import Construction from "@/components/Construction";
 import Apparel from "@/components/Apparel";
 import Footer from "@/components/Footer";
 import Agro from "@/components/Agro";
+import Speech from "@/components/Speech";
 
 
 export default function Home() {
@@ -18,7 +19,8 @@ export default function Home() {
    <ClothingBrand />
    <Construction />
    <Apparel />
-   <Agro />
+      <Agro />
+      <Speech />
    <Footer />
    
    </>
